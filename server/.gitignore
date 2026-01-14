@@ -1,0 +1,44 @@
+# --- Dependencies ---
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# --- Environment Variables (Секрети) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Build Output ---
+dist/
+client/dist/
+build/
+.cache/
+
+# --- Database ---
+# Ігноруємо локальну базу, якщо вона у файлі (для SQLite), 
+# але для Postgres ігноруємо тільки логи
+*.log
+*.sql
+*.db
+
+# --- Editors (VS Code, WebStorm) ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Vanta.js & Three.js Assets (якщо завантажували локально) ---
+client/public/vanta/

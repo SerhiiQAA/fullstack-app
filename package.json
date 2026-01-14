@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Welcome to User Management System 👋</h1>",
+  "main": "index.js",
+  "scripts": {
+  "start": "concurrently --kill-others \"cd server && npm run dev\" \"cd client && npm run dev\" \"cd server && npx prisma studio\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
