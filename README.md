@@ -65,6 +65,3 @@ npm run dev
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was enhanced with ❤️ for professional portfolio use._
